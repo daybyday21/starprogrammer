@@ -37,10 +37,7 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-
-
 </head>
-
 <body>
 
     <!--====== PRELOADER PART START ======-->
@@ -64,17 +61,20 @@
 
 
     <!--====== APPIE HERO PART START ======-->
-
+    <a name="introduction"></a>
     <section class="appie-hero-area appie-hero-8-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="appie-hero-content appie-hero-content-8">
-                        <h1 class="appie-title">We’re a full-range design app</h1>
-                        <p>Jolly good excuse my french boot super my good sir cup of char richard about chinwag.</p>
+                        <h1 class="appie-title">미래의 프로그래머를 응원합니다.</h1>
+                        <p>
+                          중&#8226;고등학생들의 꿈이 실현되도록 방과 후 프로그래밍 교육을 지원합니다.<br/>
+                          자원봉사자로 구성된 개발자들이 학생들의 꿈을 더 가깝게 만들어줍니다.</p>
                         <ul>
-                            <li><a href="#"><i class="fab fa-google-play"></i>  <span>Google Play</span></a></li>
-                            <li><a class="item-2" href="#"><i class="fab fa-apple"></i>  <span>App Store</span></a></li>
+                            <li><a class="item-2" href="#"><i class="fa fa-home"></i>  <span>Responsive Web</span></a></li>
+                            <li><a class="item-2" href="#"><i class="fab fa-google-play"></i>  <span>Android App</span></a></li>
+                            <li><a class="item-2" href="#"><i class="fab fa-apple"></i>  <span>iOS App</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -104,32 +104,45 @@
     <!--====== APPIE HERO PART ENDS ======-->
 
     <!--====== APPIE ABOUT 8 PART ENDS ======-->
-
+    <a name="educate"></a>
     <section class="appie-about-8-area pt-100 pb-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="appie-section-title mb-30">
-                        <h3 class="appie-title">We bring everything <br> that's required to build apps</h3>
+                        <h3 class="appie-title">3개 분야의 교육을 제공합니다.</h3>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-4">
                     <div class="appie-about-8-box">
-                        <h3 class="title">Will my Template be <br> Mobile Friendly</h3>
-                        <p>A load of old tosh spiffing pear shaped show <br> off pick your nose and blow</p>
-                        <a class="main-btn" href="#">Learn More <i class="fal fa-arrow-right"></i></a>
+                        <h3 class="title">반응형 웹 만들기<br/>#Django, #React.JS</h3>
+                        <p>
+                          2개 페이지 분량의 개인 포트폴리오 홈페이를 제작해봅니다.<br>
+                          주요 교육 사항: 도메인 구매 & 연동 / 홈페이지 개발 / 배포
+                        </p>
+                        <a class="main-btn" href="#">교육 자료 미리보기 <i class="fal fa-arrow-right"></i></a>
                         <div class="thumb">
-                            <img src="assets/images/about-thumb-4.png" alt="">
+                          <img src="{% static 'images/abount-thumb-4.png' %}" alt=""/>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-4">
                     <div class="appie-about-8-box">
-                        <h3 class="title">Website & Mobile <br> App Design</h3>
-                        <p>A load of old tosh spiffing pear shaped show <br> off pick your nose and blow</p>
-                        <a class="main-btn" href="#">Learn More <i class="fal fa-arrow-right"></i></a>
+                        <h3 class="title">Android App<br>#Kotlin</h3>
+                        <p>단순한 기능의 To-Do List App을 만들어봅니다.<br> 주요 교육 사항:<br/> Native 앱 개발 / DB / 앱 화면 개발</p>
+                        <a class="main-btn" href="#">교육 자료 미리보기 <i class="fal fa-arrow-right"></i></a>
+                        <div class="thumb mr-30">
+                            <img src="assets/images/about-thumb-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="appie-about-8-box">
+                        <h3 class="title">iOS App<br>#Swift</h3>
+                        <p>단순한 기능의 To-Do List App 제작 과정을 학습합니다.<br> 주요 교육 사항:<br/> Native 앱 개발 / DB / 앱 화면 개발</p>
+                        <a class="main-btn" href="#">교육 자료 미리보기 <i class="fal fa-arrow-right"></i></a>
                         <div class="thumb mr-30">
                             <img src="assets/images/about-thumb-5.png" alt="">
                         </div>
